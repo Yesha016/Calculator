@@ -14,7 +14,9 @@ def multiplication(a, b):
     return a * b
 
 def division(a, b):
-    return a / b
+    a = int(a)
+    b = int(b)
+    return round(b / a, 9)
 
 def square(a):
     return a ** 2
