@@ -19,6 +19,7 @@ def division(a, b):
     return round(b / a, 9)
 
 def square(a):
+    a = int(a)
     return a ** 2
 
 def squareroot(a):
