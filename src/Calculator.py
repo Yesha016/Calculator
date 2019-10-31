@@ -4,7 +4,9 @@ def addition(a, b):
     return a + b
 
 def subtraction(a, b):
-    return a - b
+    a = int(a)
+    b = int(b)
+    return b - a
 
 def multiplication(a, b):
     return a * b
