@@ -9,6 +9,8 @@ def subtraction(a, b):
     return b - a
 
 def multiplication(a, b):
+    a = int(a)
+    b = int(b)
     return a * b
 
 def division(a, b):
